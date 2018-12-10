@@ -1,0 +1,40 @@
+/* ==========================================================================
+  Candle Ninja Styles
+  ========================================================================== */
+body.candle-ninja {
+  background: $darkerGray;
+}
+
+.cn-header {
+  max-width: 800px;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  color: $white;
+  position: relative;
+  border: none;
+
+  .site-name {
+    color: $white;
+    text-align: center;
+  }
+}
+
+.cn-site-name {
+  padding-bottom: 1em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.cn-logo {
+  max-height: 1.5em;
+  svg {
+    height: 1.5em;
+    width: auto;
+    path {
+      fill: $white !important;
+    }
+  }
+}
